@@ -8,7 +8,7 @@ public class Test2 {
 			System.out.println("eat something");
 		}
 		
-		else {
+		else if(hungry == "no" || hungry == "N" || hungry == "n") {
 			System.out.println("do work...");
 		}
 	}
